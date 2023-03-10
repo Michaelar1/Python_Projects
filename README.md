@@ -2,6 +2,7 @@
 This repository contains my Python Projects from The Tech Academy.
 
 ## Projects
+* [Nice or Mean Game](https://github.com/Michaelar1/Python_Projects/blob/main/nice_or_mean.py)
 * [Program Scope Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/programScope.py)
 * [Function Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Function_Assignment.py)
 * [Lambda Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/lambda.py)
@@ -10,6 +11,9 @@ This repository contains my Python Projects from The Tech Academy.
 * [While Loops](https://github.com/Michaelar1/Python_Projects/commit/0e70a673f6c808bac80e581ac9f46454c3f83b40)
 * [Boolean Assignment](https://github.com/Michaelar1/Python_Projects/commit/4b50514bc76b540200f6d4a28e48a90ef4e376fc)
 * [Python If](https://github.com/Michaelar1/Python_Projects/commit/43d44ec30ce12ea6b7ba3eed95700b91017b79ae)
+
+### Nice or Mean Game
+  In this assignment it is demonstrated how to pass variables from function to function by producing a functional game.
 
 ### Program Scope Assignment
   In this assignment, I demonstrated variable scope and how it affects the output of the code. I included both a global and a local variable to show that code with a local variable with the same name as a global variable would display with the local variable over the global one.
