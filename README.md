@@ -2,6 +2,7 @@
 This repository contains my Python Projects from The Tech Academy.
 
 ## Projects
+* [Script Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/Script_Assignment)
 * [Nice or Mean Game](https://github.com/Michaelar1/Python_Projects/blob/main/nice_or_mean.py)
 * [Program Scope Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/programScope.py)
 * [Function Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Function_Assignment.py)
@@ -11,6 +12,9 @@ This repository contains my Python Projects from The Tech Academy.
 * [While Loops](https://github.com/Michaelar1/Python_Projects/commit/0e70a673f6c808bac80e581ac9f46454c3f83b40)
 * [Boolean Assignment](https://github.com/Michaelar1/Python_Projects/commit/4b50514bc76b540200f6d4a28e48a90ef4e376fc)
 * [Python If](https://github.com/Michaelar1/Python_Projects/commit/43d44ec30ce12ea6b7ba3eed95700b91017b79ae)
+
+### Script Assignment
+  In this assignment I created a script that iterates through a directory, selects the files with the ".txt" extension, and displays them with their last modified date and time. I used the os and time libraries and the os and os.path modules, for loops, and dunder methods.
 
 ### Nice or Mean Game
   In this assignment it is demonstrated how to pass variables from function to function by producing a functional game.
