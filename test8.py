@@ -14,3 +14,10 @@ with conn:
         )")
     conn.commit()
 conn.close()
+
+
+conn = sqlite3.connect('test.db')
+
+with conn:
+    cur = conn.cursor()
+    cur.execute("INSERT INTO tbl_persons(col_fname, col_lname, col_email) VALUES(?, ?, ?))")
