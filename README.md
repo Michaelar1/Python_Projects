@@ -2,6 +2,7 @@
 This repository contains my Python Projects from The Tech Academy.
 
 ## Projects
+* [Database Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/db_Assignment)
 * [Script Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/Script_Assignment)
 * [Nice or Mean Game](https://github.com/Michaelar1/Python_Projects/blob/main/nice_or_mean.py)
 * [Program Scope Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/programScope.py)
@@ -12,6 +13,9 @@ This repository contains my Python Projects from The Tech Academy.
 * [While Loops](https://github.com/Michaelar1/Python_Projects/commit/0e70a673f6c808bac80e581ac9f46454c3f83b40)
 * [Boolean Assignment](https://github.com/Michaelar1/Python_Projects/commit/4b50514bc76b540200f6d4a28e48a90ef4e376fc)
 * [Python If](https://github.com/Michaelar1/Python_Projects/commit/43d44ec30ce12ea6b7ba3eed95700b91017b79ae)
+
+### Database Assignment
+  In this assignment, I create a database and table using Python in conjunction with SQL Lite 3 and iterate through a tuple of file names to only insert the file names with the extension ".txt" into the table. It then prints the names of the .txt files in the IDLE Shell.
 
 ### Script Assignment
   In this assignment I created a script that iterates through a directory, selects the files with the ".txt" extension, and displays them with their last modified date and time. I used the os and time libraries and the os and os.path modules, for loops, and dunder methods.
