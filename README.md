@@ -2,6 +2,7 @@
 This repository contains my Python Projects from The Tech Academy.
 
 ## Projects
+* [Polymorphism Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Polymorphism_Assignment.py)
 * [Inheritance Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Inheritance_Assignment.py)
 * [Database Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/db_Assignment)
 * [Script Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/Script_Assignment)
@@ -14,6 +15,9 @@ This repository contains my Python Projects from The Tech Academy.
 * [While Loops](https://github.com/Michaelar1/Python_Projects/commit/0e70a673f6c808bac80e581ac9f46454c3f83b40)
 * [Boolean Assignment](https://github.com/Michaelar1/Python_Projects/commit/4b50514bc76b540200f6d4a28e48a90ef4e376fc)
 * [Python If](https://github.com/Michaelar1/Python_Projects/commit/43d44ec30ce12ea6b7ba3eed95700b91017b79ae)
+
+### Polymorphism assignment
+  In this assignment, I created a parent class with two child classes with one attribute from each child class being polymorphic for an attribute of the parent class in a given method.
 
 ### Inheritance Assignment
   This was an assignment to create a parent class and two child classes that inherit from the parent class.
