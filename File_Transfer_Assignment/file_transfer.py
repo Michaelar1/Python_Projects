@@ -6,7 +6,9 @@ import tkinter.filedialog
 import os
 import shutil
 import datetime
-from datetime import timedelta
+from datetime import timedelta, datetime
+
+
 
 
 class ParentWindow(Frame):
@@ -77,10 +79,12 @@ class ParentWindow(Frame):
         source_files = os.listdir(source)
         #   Runs through each file in the source directory
         for i in source_files:
+            filepath = os.path.join(source, i)
             #   gets timestamp of the file from its filepath
-            t1 = os.path.getmtime(i)
-            t2 = datetime.datetime.now()
-            t3 = datetime.timedelta.resolution(t2-t1)
+            t1 = os.path.getmtime(filepath)
+            modTime = datetime.fromtimestamp(t1)
+            t2 = datetime.now()
+            t3 = t2 - modTime
             if t3 < timedelta(hours=24):
                 #   moves each file from the source to the destination
                 shutil.move(source + '/' + i, destination)
