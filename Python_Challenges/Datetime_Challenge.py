@@ -29,11 +29,12 @@ def time_in_range(start, end, time):
 
 start = datetime.time(9, 0, 0)
 end = datetime.time(17, 0, 0)
+current = branches.values()
 
 def branch_status():
-    for place, time in branches:
-        x = time_in_range(start, end, time)
-        if x == True:
+    for x, y in branches:
+        y = time_in_range(start, end, time)
+        if y == True:
             print("\nThe {} branch is open.".format(place))
         else:
             print("\nThe {} branch is closed.".format(place))
