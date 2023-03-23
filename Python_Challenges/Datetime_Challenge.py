@@ -17,27 +17,22 @@ ny_time = datetime.datetime.now(timezone(NY)).time()
 london = 'UTC'
 london_time = datetime.datetime.now(timezone(london)).time()
 
-branches = {
-    "Portland" : pl_time,
-    "New York" : ny_time,
-    "London" : london_time
-    }
+branch = ["Portland", "New York", "London"]
+time = [pl_time, ny_time, london_time]
 
 def time_in_range(start, end, time):
-    #   Returns whether current time is in the range [start, end]
-    return start <= current <= end
+    for x in time:
+        #   Returns whether current time is in the range [start, end]
+        return start <= current <= end
 
 start = datetime.time(9, 0, 0)
 end = datetime.time(17, 0, 0)
-current = branches.values()
+current = x
 
 def branch_status():
-    for x, y in branches:
-        y = time_in_range(start, end, time)
-        if y == True:
-            print("\nThe {} branch is open.".format(place))
-        else:
-            print("\nThe {} branch is closed.".format(place))
+    for y in branch:
+        if x in time = True
+            print
 
 
 if __name__ == "__main__":
