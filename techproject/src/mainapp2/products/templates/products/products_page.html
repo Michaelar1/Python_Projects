@@ -6,6 +6,22 @@
 
 {% block content %}
 
-
+<div class="admin_panel">
+    <form name="productForm" method="POST" action="">
+        <div class="formObject">
+            {% csrf_token %}
+            <label for="menu_id">Select a product from the list to edit: </label>
+            <select id="menu_id" name="menu" onchange="top.location.href=this.options[this.selectedIndex].value;">
+                {% for product in products %}
+                    <option value="../{{ product.pk }}/details/">{{ product.name }}</option>
+                {% endfor %}
+            </select>
+            <div class="formBtn_container">
+                <a href=""><button type="button" class="btn">Create New Product</button></a>
+                <a href="{% url 'home' %}"><button type="button" class="btn">Log Out of Profile</button></a>
+            </div>
+        </div>
+    </form>
+</div>
 
 {% endblock %}
