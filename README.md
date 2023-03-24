@@ -2,6 +2,8 @@
 This repository contains my Python Projects from The Tech Academy.
 
 ## Projects
+* [Django Challenge 2 - BlueBird Banking Checkbook App](https://github.com/Michaelar1/Python_Projects/tree/main/Django_Challenges/Django_Checkbook_Project/BlueBirdBanking)
+* [Django Challenge 1 - Django University Project](https://github.com/Michaelar1/Python_Projects/tree/main/Django_Challenges/DjangoUniversity/Classes)
 * [Royal Hotels Project](https://github.com/Michaelar1/Python_Projects/tree/main/techproject/src/mainapp2)
 * [Web Page Generator Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Web_Page_Generator_Assignment/web_page_generator.py)
 * [Phonebook Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/Phonebook_Assignment)
@@ -19,8 +21,14 @@ This repository contains my Python Projects from The Tech Academy.
 * [Boolean Assignment](https://github.com/Michaelar1/Python_Projects/commit/4b50514bc76b540200f6d4a28e48a90ef4e376fc)
 * [Python If](https://github.com/Michaelar1/Python_Projects/commit/43d44ec30ce12ea6b7ba3eed95700b91017b79ae)
 
+### Django Challenge 2 - BlueBird Banking Checkbook App
+  This was a project using PyCharm and Django to create a functioning checkbook web app that can intake information on deposits and withdrawals and return the balance of a given account. The user can create accounts, enter withdrawals and deposits, and check balances.
+
+### Django Challenge 1 - Django University
+   This was a brief project using PyCharm and Django to create a database app to track universities and classes. A user can create, edit, and delete classes and campuses.
+
 ### Royal Hotels Project
-  This project used Django to create the back-end functionality for a room service menu database that has the ability to create, edit, and delete menu items.
+  This project used PyCharm and Django to create the back-end functionality for a room service menu database that has the ability to create, edit, and delete menu items.
 
 ### Web Page Generator Assignment
   This was a simple assignment using Tkinter to create a GUI that will allow the user to generate a web page with or without custom text input.
