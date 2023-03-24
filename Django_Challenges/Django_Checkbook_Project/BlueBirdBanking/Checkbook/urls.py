@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-urlpatterns= [
+urlpatterns = [
     #   Sets the url path to home page index.html
     path('', views.home, name='index'),
     #   Sets the url path to Create New Account page CreateNewAccount.html
