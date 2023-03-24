@@ -2,6 +2,7 @@
 This repository contains my Python Projects from The Tech Academy.
 
 ## Projects
+* [Royal Hotels Project](https://github.com/Michaelar1/Python_Projects/tree/main/techproject/src/mainapp2)
 * [Web Page Generator Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Web_Page_Generator_Assignment/web_page_generator.py)
 * [Phonebook Assignment](https://github.com/Michaelar1/Python_Projects/tree/main/Phonebook_Assignment)
 * [Polymorphism Assignment](https://github.com/Michaelar1/Python_Projects/blob/main/Polymorphism_Assignment.py)
@@ -17,6 +18,9 @@ This repository contains my Python Projects from The Tech Academy.
 * [While Loops](https://github.com/Michaelar1/Python_Projects/commit/0e70a673f6c808bac80e581ac9f46454c3f83b40)
 * [Boolean Assignment](https://github.com/Michaelar1/Python_Projects/commit/4b50514bc76b540200f6d4a28e48a90ef4e376fc)
 * [Python If](https://github.com/Michaelar1/Python_Projects/commit/43d44ec30ce12ea6b7ba3eed95700b91017b79ae)
+
+### Royal Hotels Project
+  This project used Django to create the back-end functionality for a room service menu database that has the ability to create, edit, and delete menu items.
 
 ### Web Page Generator Assignment
   This was a simple assignment using Tkinter to create a GUI that will allow the user to generate a web page with or without custom text input.
