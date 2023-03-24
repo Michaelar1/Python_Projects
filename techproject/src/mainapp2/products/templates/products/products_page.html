@@ -17,7 +17,7 @@
                 {% endfor %}
             </select>
             <div class="formBtn_container">
-                <a href=""><button type="button" class="btn">Create New Product</button></a>
+                <a href="{% url 'createRecord' %}"><button type="button" class="btn">Create New Product</button></a>
                 <a href="{% url 'home' %}"><button type="button" class="btn">Log Out of Profile</button></a>
             </div>
         </div>
